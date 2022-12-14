@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pearlsociety">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/my"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/my"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Slidingscreen">
+
+        <activity
+            android:name="com.example.pearlsociety.addNotice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.pearlsociety.viewNotice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.pearlsociety.giveFeedback"
+            android:exported="true" />
+        <activity
+            android:name="com.example.pearlsociety.viewFeedback"
+            android:exported="true" />
+
+        <activity
+            android:name="com.example.pearlsociety.swimmingpool"
+            android:exported="false" />
+        <activity
+            android:name="com.example.pearlsociety.park"
+            android:exported="false" />
+        <activity
+            android:name="com.example.pearlsociety.clubhouse"
+            android:exported="false" />
+        <activity
+            android:name="com.example.pearlsociety.gym"
+            android:exported="false" />
+        <activity
+            android:name="com.example.pearlsociety.amenitiesinfo"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.example.pearlsociety.members_homepage"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.pearlsociety.sos"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.pearlsociety.admin_home"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.pearlsociety.payment"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.pearlsociety.login"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.pearlsociety.signup"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.example.pearlsociety.viewvisitingForm"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.example.pearlsociety.guestvisitform"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.example.pearlsociety.viewcomplaints"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name="com.example.pearlsociety.approvedform"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+
+
+        <activity
+            android:name="com.example.pearlsociety.complaint"
+            android:screenOrientation="portrait"
+            android:exported="false"/>
+        <activity
+            android:name="com.example.pearlsociety.mainscreen"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name="com.example.pearlsociety.slider"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
