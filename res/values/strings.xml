@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RIDS</string>
+
+    //Headings
+    <string name="heading_one">Welcome to My Society Notebook App</string>
+    <string name="heading_two">Instant Notifications</string>
+    <string name="heading_three">Save Paper Save Money</string>
+    <string name="heading_fourth">Pay Anywhere</string>
+
+    //Description
+    <string name="desc_one">Grow your society with our new and latest android application</string>
+    <string name="desc_two">Get Instant updates on whats cooking in your society</string>
+    <string name="desc_three">Lets become paperless !!! Do all your work using our application</string>
+    <string name="desc_fourth">Go cashless and pay using UPI through the QR-code given in the application</string>
+
+
+</resources>

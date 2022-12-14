@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mainscreen">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="WELCOME TO LOGIN"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:elevation="0dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/poppins"
+        android:onClick="qr"
+        android:text="QR-CODE"
+        android:textColor="@color/black" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:elevation="0dp"
+        android:fontFamily="@font/poppins"
+        android:onClick="comp"
+        android:text="fill complain"
+        android:textColor="@color/black" />
+ <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:elevation="0dp"
+        android:fontFamily="@font/poppins"
+        android:onClick="viewcomp"
+        android:text="view complain"
+        android:textColor="@color/black" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:elevation="0dp"
+        android:fontFamily="@font/poppins"
+        android:onClick="guestvisit"
+        android:text="Guest Visit Form"
+        android:textColor="@color/black" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:elevation="0dp"
+        android:fontFamily="@font/poppins"
+        android:onClick="viewguestvisit"
+        android:text="View Guest Visit Form"
+        android:textColor="@color/black" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:elevation="0dp"
+        android:fontFamily="@font/poppins"
+        android:onClick="viewapprovedguestvisit"
+        android:text="View approved Guest Visit Form"
+        android:textColor="@color/black" />
+
+
+
+
+
+</LinearLayout>

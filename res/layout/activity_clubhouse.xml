@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clubhouse"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/amenities"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:src="@drawable/clubhouse"/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="A clubhouse is, in fact, the hub of all recreational activities in one roof."/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:text="A clubhouse is a place where each member of the family can, in fact, find the pace."/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:text="It consists of a kid’s area to libraries, dines out areas or areas meant for gatherings. Apart from this, in many of the modern designs, there are outdoor courts."/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:text="A one-roof solution for all recreation and fitness activities of a community."/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="● Benefits of living in an apartment having a clubhouse"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="1. Socializing made easier\n2. Recreation at its best\n3. Event holding space\n"/>
+
+</LinearLayout>

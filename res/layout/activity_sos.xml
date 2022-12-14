@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sos">
+
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/sos"
+        android:layout_width="422dp"
+        android:layout_height="196dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/sos"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/sos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/police"
+    android:layout_width="190dp"
+    android:layout_height="190dp"
+    android:layout_margin="10dp"
+        android:onClick="police"
+    android:src="@drawable/police"/>
+
+    <ImageView
+        android:id="@+id/medical"
+        android:layout_toRightOf="@+id/police"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:onClick="medical"
+        android:layout_margin="10dp"
+        android:src="@drawable/medical"/>
+
+    <ImageView
+        android:layout_below="@+id/police"
+        android:layout_toRightOf="@+id/fire"
+        android:id="@+id/watchman"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:onClick="watchman"
+        android:layout_margin="10dp"
+        android:src="@drawable/watchman"/>
+
+    <ImageView
+        android:layout_below="@+id/police"
+        android:id="@+id/fire"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp"
+        android:onClick="fire"
+        android:src="@drawable/fire"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

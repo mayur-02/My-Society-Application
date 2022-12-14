@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".amenitiesinfo">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/amenities"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:src="@drawable/amenities"/>
+
+    <TextView
+        android:layout_below="@+id/amenities"
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_centerHorizontal="true"
+        android:text=" RIDS GROUP (BUILDERS AND DEVELOPERS)"
+        android:textColor="#FFA500"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_below="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="120dp"
+        android:text= "╶╶╶╶╶╶╶╶╶╶"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+    android:id="@+id/tv3"
+    android:layout_below="@+id/tv2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-black"
+    android:layout_centerHorizontal="true"
+    android:text=" More Than A Home "
+    android:textColor="#FFA500"
+    android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv3"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text=" ✦ General Amenities  "
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv4"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text=" ● Power Backup  "
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv4"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/tv5"
+            android:fontFamily="sans-serif-black"
+            android:text=" ● Lifts  "
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv7"
+        android:layout_below="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text=" ● Water Supply  "
+        android:textColor="@color/black"
+        android:textSize="19sp"/>
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv6"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv7"
+            android:fontFamily="sans-serif-black"
+            android:text=" ● Security  "
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv8"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text=" ● WI-FI  "
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv8"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv10"
+            android:fontFamily="sans-serif-black"
+            android:text=" ● Parking  "
+            android:textColor="@color/black"
+            android:textSize="19sp" />
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/tv10"
+        android:layout_below="@+id/tv9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text=" ✦ Premium Amenities  "
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:onClick="gym"
+            android:text="GYM " />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv10"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="80dp"
+            android:layout_toRightOf="@+id/bt1"
+            android:text=" Club House "
+            android:onClick="clubhouse"/>
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text=" Park  "
+            android:onClick="park"/>
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" swimming pool "
+            android:layout_below="@+id/bt1"
+            android:layout_toRightOf="@id/bt3"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:onClick="swimmingpool"
+            />
+
+
+    </RelativeLayout>
+</ScrollView>

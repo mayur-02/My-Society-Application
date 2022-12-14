@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_home">
+
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/image_slider"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleEnabled="true"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="@color/black"
+        app:sliderIndicatorUnselectedColor="@color/cardview_light_background"
+        app:sliderScrollTimeInSec="2"
+        app:sliderStartAutoCycle="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_slider"
+        android:background="#FCF6F5FF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="6dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:alignmentMode="alignMargins"
+                android:columnCount="2"
+                android:columnOrderPreserved="false"
+                android:rowCount="3">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="10dp"
+                    android:onClick="Seecomplaint"
+                    app:cardBackgroundColor="#2F4F4F"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/im1"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/white"
+                            android:src="@drawable/seecomplaint" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/im1"
+                            android:text=" See Complaints "
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="10dp"
+                    android:onClick="seefeedback"
+                    app:cardBackgroundColor="#2F4F4F"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/im2"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/white"
+                            android:src="@drawable/seefeedback" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/im1"
+                            android:text=" See Feedback "
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="10dp"
+                    android:onClick="addnotice"
+                    app:cardBackgroundColor="#2F4F4F"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/im5"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/white"
+                            android:src="@drawable/history" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/im1"
+                            android:text=" Add notice "
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="10dp"
+                    android:onClick="approveguest"
+                    app:cardBackgroundColor="#2F4F4F"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/im4"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/white"
+                            android:src="@drawable/approvedguest" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/im1"
+                            android:text=" Approve Guest "
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
